@@ -871,33 +871,36 @@ section[id], footer {
 .phone-stats {
   display: flex;
   justify-content: space-between;
-  padding: 0 2px;
+  padding: 0 1px;
   margin-top: auto;
-  gap: 4px;
+  gap: 2px;
 }
 
 .stat-pill {
   background: rgba(255,255,255,0.06);
   border: 1px solid rgba(255,255,255,0.1);
-  border-radius: 12px;
-  padding: 3px 6px;
+  border-radius: 10px;
+  padding: 3px 3px;
   text-align: center;
   flex: 1;
+  min-width: 0;
 }
 
 .stat-val {
   display: block;
-  font-size: 9px;
+  font-size: 8px;
   font-weight: 700;
   color: #fff;
+  white-space: nowrap;
 }
 
 .stat-lbl {
   display: block;
-  font-size: 5px;
+  font-size: 4.5px;
   color: rgba(255,255,255,0.4);
-  letter-spacing: 0.08em;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 @media (max-width: 900px) {
